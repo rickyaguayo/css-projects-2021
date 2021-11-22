@@ -50,3 +50,23 @@ total height = top border + top padding + specified height + bottom padding + bo
   5. themes
   6. abstracts/
   7. vendors/
+
+npm init -> creates package json file
+--save-dev -> saves dependcies on package.json file so you bring over any npm installed file without bringing the node modules folder. easy to migrate with.
+
+Basic Responsive design principles
+  1. Fluid Layouts
+    - allow webpage to adapt to current viewport width/height
+    - use %, vh/vw units
+    - use max-width instead of width
+
+  2. Responsive units
+    - use rem units
+    - automatic scaling
+
+  3. Flexible images
+    - have all images scale with viewport
+    - always use % for image dimensioins, together with max-width
+
+  4. Media Queries
+    - change styles with viewports
