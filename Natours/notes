@@ -70,3 +70,7 @@ Basic Responsive design principles
 
   4. Media Queries
     - change styles with viewports
+
+When using calc(), if you want to use a sass variable with it, wrap it with  #{}
+
+When using float, this collapses height. Use clearfix to adjust
