@@ -74,3 +74,7 @@ Basic Responsive design principles
 When using calc(), if you want to use a sass variable with it, wrap it with  #{}
 
 When using float, this collapses height. Use clearfix to adjust
+
+perspective - the lower the value, the more dramatic the perspective
+
+clip-path breaks overflow
