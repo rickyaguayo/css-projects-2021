@@ -13,12 +13,15 @@ $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 
 $color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
 $color-white: #fff;
 $color-black: #000;
 
 // BOX SHADOW
-$box-shadow-15: rgba($color-black, .15);
-$box-shadow-20: rgba($color-black, .2);
+$box-shadow-15: rgba($color-black, 0.15);
+$box-shadow-20: rgba($color-black, 0.2);
 
 //GRID
 $grid-width: 114rem;

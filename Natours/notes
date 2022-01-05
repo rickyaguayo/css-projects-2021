@@ -1,10 +1,11 @@
 Specificity Heirarchy
-  1. Inline
-  2. IDs
-  3. Classes, pseudo classes, attribute
-  4. Elements, pseudo elements 
 
-  Universal selector * doesnt have specificity value
+1. Inline
+2. IDs
+3. Classes, pseudo classes, attribute
+4. Elements, pseudo elements
+
+Universal selector \* doesnt have specificity value
 
 ease in: slow then fast
 ease out: fast then slow
@@ -13,21 +14,22 @@ Responsive design: Build a site that works across all platforms
 Maintainable and scalable code: Clean code. easy to understand, accepts groth and is reusable
 Web Performance: Makes it faster. Compressing code. efficient code. CSS preprocessor
 
-em measured relative to parent font size. 
-Ex: 
+em measured relative to parent font size.
+Ex:
 
 html {
-  font-size: 16px;
+font-size: 16px;
 }
 
 header {
-  font-size: 150%;
-  padding: 2em;
+font-size: 150%;
+padding: 2em;
 }
 the padding will be 48px because the font size in the header is 24px
 
 Visual Formatting Model - algorithm that determines layout for webpage
-Box Model - 
+Box Model -
+
 - Content - text, images, etc
 - padding
 - border
@@ -35,46 +37,61 @@ Box Model -
 - fill area - area that gets filled with bg color or bg image
 
 - total width = right border + right padding + specified width + left padding + left border
-total height = top border + top padding + specified height + bottom padding + bottom border
- - Ex: 0 + 20px + 100px + 20px + 0 = 140px
+  total height = top border + top padding + specified height + bottom padding + bottom border
+- Ex: 0 + 20px + 100px + 20px + 0 = 140px
 
- Inline box 
- - does not work with padddings and margins (only horizontal ones?)
- - no heights/widths
+Inline box
+
+- does not work with padddings and margins (only horizontal ones?)
+- no heights/widths
 
 7 folders for Sass
-  1. base/
-  2. components/
-  3. layout
-  4. pages
-  5. themes
-  6. abstracts/
-  7. vendors/
+
+1. base/
+2. components/
+3. layout
+4. pages
+5. themes
+6. abstracts/
+7. vendors/
 
 npm init -> creates package json file
 --save-dev -> saves dependcies on package.json file so you bring over any npm installed file without bringing the node modules folder. easy to migrate with.
 
 Basic Responsive design principles
-  1. Fluid Layouts
+
+1. Fluid Layouts
+
+
     - allow webpage to adapt to current viewport width/height
     - use %, vh/vw units
     - use max-width instead of width
 
-  2. Responsive units
+2. Responsive units
+
+
     - use rem units
     - automatic scaling
 
-  3. Flexible images
+3. Flexible images
+
+
     - have all images scale with viewport
     - always use % for image dimensioins, together with max-width
 
-  4. Media Queries
+4. Media Queries
+
+
     - change styles with viewports
 
-When using calc(), if you want to use a sass variable with it, wrap it with  #{}
+When using calc(), if you want to use a sass variable with it, wrap it with #{}
 
 When using float, this collapses height. Use clearfix to adjust
 
 perspective - the lower the value, the more dramatic the perspective
 
 clip-path breaks overflow
+
+inline elements can use text-align
+
+checkbox hack - checkbox connected to a label
